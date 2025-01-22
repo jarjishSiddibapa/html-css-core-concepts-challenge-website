@@ -1,79 +1,132 @@
-# HTML & CSS Core Concepts Challenge Website
+HTML & CSS Core Concepts Challenge Website
+Welcome to my first challenge website project! This project is part of the 100 Days of Web Development course by Academind. On Day 9, I took on the challenge of replicating a website design using only HTML and CSS. This project helped me solidify my understanding of core web development concepts and gave me hands-on experience in building a responsive and visually appealing website.
 
-This repository contains the code for the first challenge I completed as part of the 100 Days of Web Development by Academind. The challenge was to replicate a given website image using core HTML and CSS concepts. The challenge helped me practice my understanding of these fundamental web development tools.
+Project Overview
+The goal of this project was to recreate a website design provided as an image (./images/expected-website.png). I built the website from scratch using HTML for structure and CSS for styling. The final output of my website is saved as ./images/my-website-final-output.png for comparison.
 
-## Challenge Overview
+Key Features:
+Responsive Design: The website is designed to be responsive and adapts to different screen sizes.
 
-As part of Day 9 of the 100 Days of Web Development, I was tasked with replicating a given website design. The reference image for the website design is stored in this repository under `./images/expected-website.png`, and the final output of my website is saved under `./images/my-website-final-output.png`.
+Semantic HTML: Proper use of semantic HTML elements for better accessibility and SEO.
 
-The goal of this challenge was to strengthen my skills in basic HTML and CSS, focusing on:
+CSS Styling: Utilized CSS properties like Flexbox, Grid, and media queries to achieve the desired layout and design.
 
-- Layout structure
-- Styling using CSS properties
-- Use of images and text
-- Responsive design techniques
+Image Integration: Added images and icons to match the design.
 
-## Features of the Website
+Typography: Custom fonts and text styling to replicate the design accurately.
 
-- **Layout and Structure**: 
-  The layout was built using HTML to structure the content of the page. I used semantic elements like `<header>`, `<footer>`, `<section>`, and `<article>` to ensure the content was well-organized and accessible. The website consists of a header with navigation links, a main content area with multiple sections, and a footer.
+Repository Structure
+Here’s an overview of the repository structure:
 
-- **Styling with CSS**: 
-  All visual styling was done using CSS. I used properties like `background-color`, `font-size`, `text-align`, `margin`, `padding`, and `border` to style the page elements. I also utilized `flexbox` for creating a flexible and responsive layout, making sure the website looks good on both small and large screens.
+Copy
+html-css-core-concepts-challenge-website/
+├── images/
+│   ├── expected-website.png       # The original design provided by Academind
+│   ├── my-website-final-output.png # My final website output
+│   └── (other images used in the project)
+├── index.html                     # Main HTML file
+├── styles/styles.css              # Main CSS file
+└── README.md                      # This file
+How I Built the Website
+1. HTML Structure
+I started by analyzing the provided design and breaking it down into semantic HTML elements. Here’s how I structured the HTML:
 
-- **Responsive Design**: 
-  To ensure the website is mobile-friendly, I used media queries to adjust the layout for smaller screen sizes. The navigation menu becomes a hamburger-style menu on mobile devices, and the text and images resize based on the available screen width.
+Header Section: Contains the navigation bar and hero section.
 
-- **Typography**: 
-  I used Google Fonts to enhance the typography and give the website a modern look. This included selecting fonts that were legible and aesthetically pleasing.
+Main Content: Includes sections for features, testimonials, and calls to action.
 
-- **Images**: 
-  Images were used both for decoration and to enhance the visual appeal of the website. I optimized the image file sizes to ensure faster loading times.
+Footer: Contains links, social media icons, and copyright information.
 
-## File Structure
+I used semantic tags like <header>, <main>, <section>, and <footer> to ensure the website is accessible and well-structured.
 
-The project has the following file structure:
+2. CSS Styling
+To replicate the design, I used CSS for styling and layout. Here are the key CSS concepts I applied:
 
-/html-css-core-concepts-challenge-website │ ├── index.html # The main HTML file for the website ├── styles.css # The CSS file containing all styles ├── /images # Folder containing images used in the project │ ├── expected-website.png # Reference image │ └── my-website-final-output.png # Final output image └── README.md # This readme file
+Flexbox: Used for creating flexible and responsive layouts, especially for the navigation bar and feature sections.
+
+Grid: Implemented CSS Grid for more complex layouts, such as the testimonial section.
+
+Media Queries: Added responsive design by using media queries to adjust the layout for different screen sizes.
+
+Custom Fonts: Integrated custom fonts using @font-face and Google Fonts.
+
+Box Model: Utilized padding, margin, and border properties to space elements correctly.
+
+Transitions and Hover Effects: Added subtle hover effects to buttons and links for better user interaction.
+
+3. Images and Icons
+I included images and icons to match the design. These were placed in the ./images/ folder and linked in the HTML and CSS files.
+
+4. Responsive Design
+The website is fully responsive and adapts to different screen sizes. I used media queries to adjust the layout, font sizes, and image dimensions for mobile, tablet, and desktop views.
+
+Core Concepts Applied
+This project helped me practice and apply the following core concepts of HTML and CSS:
+
+HTML:
+Semantic HTML tags (<header>, <main>, <section>, <footer>, etc.)
+
+Image embedding (<img>)
+
+Links and navigation (<a>, <nav>)
+
+Lists (<ul>, <li>)
+
+Forms and buttons (<form>, <input>, <button>)
+
+CSS:
+Box model (margin, padding, border)
+
+Flexbox and Grid for layout
+
+Media queries for responsiveness
+
+Custom fonts and typography
+
+Pseudo-classes (:hover, :focus)
+
+Transitions and animations
+
+Final Output
+Here’s a comparison of the original design and my final output:
+
+Original Design (expected-website.png)
+Original Design
+
+My Final Output (my-website-final-output.png)
+My Final Output
+
+How to Run the Project
+Clone the repository:
 
 bash
 Copy
-Edit
-
-## How to Run
-
-1. Clone the repository to your local machine:
-
 git clone https://github.com/jarjishSiddibapa/html-css-core-concepts-challenge-website.git
+Open the index.html file in your browser to view the website.
 
-css
-Copy
-Edit
+What I Learned
+This project was a great learning experience. Here are some key takeaways:
 
-2. Navigate to the project directory:
+The importance of semantic HTML for accessibility and SEO.
 
-cd html-css-core-concepts-challenge-website
+How to use Flexbox and Grid to create complex layouts.
 
-vbnet
-Copy
-Edit
+The role of media queries in building responsive designs.
 
-3. Open the `index.html` file in your browser to view the website.
+The value of breaking down a design into smaller components before coding.
 
-## Key Learnings
+Future Improvements
+While I’m happy with the outcome, there’s always room for improvement. Some ideas for future enhancements include:
 
-Throughout this challenge, I reinforced several core concepts of HTML and CSS:
+Adding more interactivity with JavaScript.
 
-- **HTML Structure**: Learning how to properly structure a webpage using semantic HTML elements like `<div>`, `<header>`, `<footer>`, and so on.
-- **CSS Layout**: Understanding how to use flexbox to create a responsive and flexible layout.
-- **Responsive Design**: Implementing media queries to make the website mobile-friendly.
-- **Styling Basics**: Applying CSS properties such as margin, padding, color, font, etc., to create a visually appealing design.
-- **Best Practices**: Learning how to optimize images and structure files in an organized way.
+Optimizing the website for performance.
 
-## Conclusion
+Improving accessibility with ARIA roles and labels.
 
-This challenge was a great way to practice the fundamentals of HTML and CSS. It helped me solidify my understanding of web page structure and styling techniques. I am looking forward to building more complex projects as I continue with the 100 Days of Web Development challenge.
+Acknowledgments
+Academind for providing the challenge as part of the 100 Days of Web Development course.
 
----
+My peers and mentors for their feedback and support.
 
-Feel free to explore the repository, check out my code, and if you have any feedback or suggestions, don't hesitate to reach out!
+Thank you for checking out my project! If you have any feedback or suggestions, feel free to open an issue or reach out to me. 😊
