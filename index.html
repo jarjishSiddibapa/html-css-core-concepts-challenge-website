@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/app.css" />
     <title>Document</title>
   </head>
@@ -24,6 +30,7 @@
         </p>
         <ul>
           <li class="highlighted-list-point">
+            <div class="list-capsule"></div>
             HTML uses "elements" to describe (annotate) content
           </li>
           <li>
@@ -31,9 +38,11 @@
             closing tag
           </li>
           <li class="highlighted-list-point">
+            <div class="list-capsule"></div>
             You can also have void (empty) elements like images
           </li>
           <li class="highlighted-list-point">
+            <div class="list-capsule"></div>
             You can also configure configure elements with attributes
           </li>
           <li>
@@ -43,7 +52,11 @@
         </ul>
         <p>
           Learn more about all available HTML elements on
-          <a href="#" class="highligted-link">the MDN HTML element reference</a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+            class="highligted-link"
+            >the MDN HTML element reference</a
+          >
         </p>
       </section>
 
@@ -56,7 +69,8 @@
         <ul>
           <li>Styles are assigned via property-value pairs</li>
           <li>You can assign styles via the "styles" attribute</li>
-          <li>
+          <li class="highlighted-list-point">
+            <div class="list-capsule"></div>
             To avoid code duplication, you typically use global styles (e.g. via
             the "style" element) instead
           </li>
@@ -64,21 +78,28 @@
             Alternatively, you can work with external stylesheet files you
             "link" to
           </li>
-          <li>
+          <li class="highlighted-list-point">
+            <div class="list-capsule"></div>
             When working with CSS, concepts like "inheritance", "specificity"
             and the "box model" should be understood
           </li>
         </ul>
         <p>
           Learn more about all available CSS properties and values on
-          <a href="#" class="highlighted-link"
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+            class="highlighted-link"
             >the MDN CSS property reference</a
           >
         </p>
       </section>
     </main>
     <footer>
-      <a href="#" id="download-button">Download PDF Summary</a>
+      <a
+        href="https://github.com/academind/100-days-of-web-development/blob/04-html-css-first-practice-summary/extra-files/html-css-basics-summary.pdf"
+        id="download-button"
+        >Download PDF Summary</a
+      >
       <p id="footer-text">(c) Academind GmbH</p>
     </footer>
   </body>
